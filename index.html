@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='tableau-angular-testing'>
+<html lang='en' ng-app='tableau-angular-testing'>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    
+    <!-- loading angular -->
+    <script src='/bower_components/angular/angular.min.js'></script>
+    
+    <!-- loading custom angular code -->
+    <script src='/angular/module.js'></script>
+    <script src='/angular/directives/chart/chart.controller.js'></script>
+    <script src='/angular/directives/chart/chart.directive.js'></script>
+
     <title>tableau-angular-testing</title>
 </head>
 <body>
-    
+    <chart />
 </body>
 </html>
